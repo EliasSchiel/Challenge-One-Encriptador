@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Encriptador Alura</title>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./styles.css">
+       
+    </head>
+    <body>
+        <header>
+            <img src="./assets/A-alura.png" alt="Logo de Alura con letra inicial">
+        </header>
+        <main>
+            <section class="container" >
+                <div class="input-container">
+                    <h1 class="titulo">Ingrese el texto a encriptar</h1>
+                    <textarea class="input-texto" placeholder="Escriba aqui su texto para ser encriptado" rows="20" cols="100" ></textarea>
+                    <div class="under-input">
+                        <button id="Encriptar" class="btn-encriptar">Encriptar</button>
+                        <button id="btn-desencriptar" class="button">Desencriptar</button>
+                    </div>
+                </div>
+                <section class="encriptado-container">
+                    <textarea class="encriptado" rows="20" cols="40" placeholder="Aqui va el texto encriptado"></textarea>
+                    <div class="btn-copiar">
+                        <button id="btnCopiar" class="button">Copiar</button>
+                    </div>
+                    
+                </section>
+            </section>
+        </main>
+        <footer>® Alura Challenge de programa ONE. Desarrollado por Elias Schiel</footer>
+        <script src="./script.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(rgb(220, 233, 220),rgb(126, 126, 168));
+    font-family:sans-serif;
+    padding: 20px;
+    height: 100vh;
+}
+
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+ }
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 1rem;
+    
+}
+.input-texto{
+    border: none;
+    font-size: 22px;
+}
+
+.titulo{
+    margin: 0.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #0A3871;
+}
+
+.under-input{
+    display: flex;
+    align-self: end;
+    margin: 1rem;
+}
+
+.encriptado-container{
+    width: 40%;
+    padding-top: 46px;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.encriptado{
+    border: none;
+    font-size: 22px;
+}
+
+.button{
+    margin: 0.5rem;
+    padding: 0.40rem;
+    border: #0A3871 solid 1px;
+    border-radius: 24px;
+    width: 328px;
+    font-size: 16px;
+    color: #0A3871;
+    background-color: #D8DFE8;
+}
+
+.btn-encriptar{
+    margin: 0.5rem;
+    padding: 0.40rem;
+    border: #0A3871 solid 1px;
+    border-radius: 24px;
+    width: 328px;
+    font-size: 16px;
+    background-color: #0A3871;
+    color: white;
+}
+
+.btn-copiar{
+    align-self: flex-end;
+    margin: 1rem;
+}
+
